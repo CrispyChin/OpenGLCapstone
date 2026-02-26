@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\3.1 Shaders">
+      <UniqueIdentifier>{3e9fb1a7-6457-4533-b9ba-e7aea91484f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2.1 Triangle">
+      <UniqueIdentifier>{2999f324-45d0-4610-92dc-00f033c1a6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2.2 Rectangle">
+      <UniqueIdentifier>{e2e62946-e8db-4014-9fde-df8080b24ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\6.3 Uniforms">
+      <UniqueIdentifier>{8441dec6-06c3-4804-86dc-dd0d01100010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\6.6 ShaderProgram">
+      <UniqueIdentifier>{767e3954-87dd-49a7-a7ff-6263d50b3284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Basic">
+      <UniqueIdentifier>{e2a6178a-7d45-424c-bc62-02e4bebc93ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\glad\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>Source Files\2.2 Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>Source Files\2.1 Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders.cpp">
+      <Filter>Source Files\3.1 Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="uniforms.cpp">
+      <Filter>Source Files\6.3 Uniforms</Filter>
+    </ClCompile>
+    <ClCompile Include="portableShaders.cpp">
+      <Filter>Source Files\6.6 ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="basic.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.frag" />
+    <None Include="shader.vs" />
+  </ItemGroup>
+</Project>
