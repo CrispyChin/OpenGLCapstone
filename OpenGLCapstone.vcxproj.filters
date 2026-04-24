@@ -31,6 +31,27 @@
     <Filter Include="Source Files\Basic">
       <UniqueIdentifier>{e2a6178a-7d45-424c-bc62-02e4bebc93ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\7.0 Textures">
+      <UniqueIdentifier>{f5c11b90-f5fc-4a07-b134-b7c1fbfcad16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\8.0 Transformations">
+      <UniqueIdentifier>{a00b2a21-98da-4457-8fe4-2d6d5063a598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\9.0 Coordinate Systems">
+      <UniqueIdentifier>{b3a69f5d-5477-41a2-81bb-d00fcdd91f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cornell Box">
+      <UniqueIdentifier>{6ed73c9b-9150-4203-9f24-8de9b37ad772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\16 lighting">
+      <UniqueIdentifier>{825d2222-8efe-480c-bf3b-ee485ba380be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\35 Shadows">
+      <UniqueIdentifier>{155eddeb-2d62-4baa-830c-9a297ce43402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shadowShader">
+      <UniqueIdentifier>{fae03e02-0eb9-4380-8779-a8e9b4bb0977}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Downloads\glad\src\glad.c">
@@ -54,14 +75,70 @@
     <ClCompile Include="basic.cpp">
       <Filter>Source Files\Basic</Filter>
     </ClCompile>
+    <ClCompile Include="textureRender.cpp">
+      <Filter>Source Files\7.0 Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations.cpp">
+      <Filter>Source Files\8.0 Transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinateSystems.cpp">
+      <Filter>Source Files\9.0 Coordinate Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="cornellBox.cpp">
+      <Filter>Source Files\Cornell Box</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting.cpp">
+      <Filter>Source Files\16 lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="shadows.cpp">
+      <Filter>Source Files\35 Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="cornellCopy.cpp">
+      <Filter>Source Files\Cornell Box</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="shader.frag" />
     <None Include="shader.vs" />
+    <None Include="lightShader.frag" />
+    <None Include="lightShader.vs" />
+    <None Include="debug_quad.vs">
+      <Filter>Source Files\shadowShader</Filter>
+    </None>
+    <None Include="debug_quad_depth.fs">
+      <Filter>Source Files\shadowShader</Filter>
+    </None>
+    <None Include="shadow_mapping.fs">
+      <Filter>Source Files\shadowShader</Filter>
+    </None>
+    <None Include="shadow_mapping.vs">
+      <Filter>Source Files\shadowShader</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.fs">
+      <Filter>Source Files\shadowShader</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.gs">
+      <Filter>Source Files\shadowShader</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.vs">
+      <Filter>Source Files\shadowShader</Filter>
+    </None>
   </ItemGroup>
 </Project>
